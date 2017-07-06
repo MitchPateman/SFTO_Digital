@@ -381,11 +381,11 @@ input { outline: none; }
   color: #fff;
 }
 .status2 {
-  width: 100px; height:36px;
+  width: 100px; height:100px;
   position: absolute;
-  left: 50%; top: 50%;
+  left: 50.5%; top: 50%;
   margin: -18px 0 0 -50px;
-  background: url(../img/preloader.png);
+  background: url(../img/rocketsm.png) no-repeat;
 }
 
 /*-----------------------------------------------------------------------------------*/

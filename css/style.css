@@ -138,7 +138,7 @@ p { margin: 20px 0; }
 /**** SVG ICONS FALLBACK ****/
 /* Fallback for browsers that don't support SVG - Generated with http://iconizr.com/ */
 .no-svg .si-icon-clock { background-image: url('../img/clock.png') }
-.no-svg .si-icon-hourglass { background-image: url('../img/hourglass.png') }
+.no-svg .si-icon-hourglass { background-image: url('../img/favicon.png') }
 .no-svg .si-icon-mail { background-image: url('../img/mail.png') }
 .no-svg .si-icon-flag { background-image: url('../img/flag.png') }
 .si-icons { cursor:pointer; }

@@ -258,6 +258,7 @@
         [].slice.call( document.querySelectorAll( '.si-icons-default > .si-icon' ) ).forEach( function( el ) {
           var svgicon = new svgIcon( el, svgIconConfig );
         } );
+        
       new svgIcon( document.querySelector( '.si-icons-hover .si-icon-hourglass' ), svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 80, h : 80 } } );
       new svgIcon( document.querySelector( '.si-icons-hover .si-icon-clock' ), svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 80, h : 80 } } );
       new svgIcon( document.querySelector( '.si-icons-hover .si-icon-mail' ), svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 80, h : 80 } } );

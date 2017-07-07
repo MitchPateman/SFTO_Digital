@@ -16,6 +16,22 @@ Purchase:  http://themeforest.net/user/josweb
 /*-----------------------------------------------------------------------------------*/
 /*	01: GENERAL STYLING
 /*-----------------------------------------------------------------------------------*/
+.alignul{
+  width: 22em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  list-style: none;
+}
+
+.lifix{
+text-align: center;
+float:left;
+  width: 11em;
+   margin: 0;
+   padding: 0;
+}
+
 html, body { height: 100%; padding: 0; margin: 0; }
 
 body {
@@ -326,7 +342,7 @@ input { outline: none; }
 }
 
 /**** SOCIAL ICONS ****/
-#social-icons ul { padding: 0; list-style-type: none; margin: 40px auto 0; }
+#social-icons ul { padding: 0; list-style-type: none; margin: 150px auto 0; }
 #social-icons ul li { display: inline; }
 #social-icons ul li a {
   color: #fff;

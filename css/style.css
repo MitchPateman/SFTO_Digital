@@ -140,7 +140,10 @@ p { margin: 20px 0; }
   padding: 10px 0 0;
   text-transform: none;
 }
-.content h1  { margin: 30px auto 0; text-transform: uppercase; }
+.content h1  {
+  margin: 30px auto 0;
+  text-transform: uppercase; 
+}
 
 .soon{
   margin: 0px auto;

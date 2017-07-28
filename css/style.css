@@ -16,20 +16,15 @@ Purchase:  http://themeforest.net/user/josweb
 /*-----------------------------------------------------------------------------------*/
 /*	01: GENERAL STYLING
 /*-----------------------------------------------------------------------------------*/
-.alignul{
-  width: 22em;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0;
-  list-style: none;
+.column_container{
+  margin: 0px auto;
+  font-size: 15.6px;
+  margin-bottom: -50px;
 }
 
 .lifix{
-text-align: center;
-float:left;
-  width: 11em;
-   margin: 0;
-   padding: 0;
+  float:left;
+  margin:0;
 }
 
 html, body { height: 100%; padding: 0; margin: 0; }
@@ -108,7 +103,7 @@ a {
 .close, #close {
   font-size: 35px;
   background: transparent;
-  color: #fff;
+  color: #000;
   opacity: 0.6;
   cursor: pointer;
   border: 0;-webkit-transition: all 0.3s ease-in-out;
@@ -117,7 +112,7 @@ a {
     -ms-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
-.close:hover, #close:hover  { opacity: 0.8; color: #fff; }
+.close:hover, #close:hover  { opacity: 0.8; color: #000; }
 
 /**** TYPOGRAPHY ****/
 h1, h2, h3, h4, h5, h6 { font-family: 'Lato', sans-serif; color:#fff; }
@@ -189,6 +184,8 @@ p { margin: 20px 0; }
 /**** LOGO ****/
 .logo {
   margin: 0 auto 10px;
+  margin-bottom: 60px;
+  margin-right: 5px;
   height:50%;
   width:50%;
 }
@@ -400,11 +397,13 @@ input { outline: none; }
   color: #fff;
 }
 .status2 {
-  width: 100px; height:100px;
-  position: absolute;
-  left: 50.5%; top: 50%;
-  margin: -18px 0 0 -50px;
-  background: url(../img/rocketsm.png) no-repeat;
+  width: 300px; height:162px;
+  position:static;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 280px;
+  background: url(../img/boatmd.png) no-repeat;
+  background-size: auto;
 }
 
 /*-----------------------------------------------------------------------------------*/

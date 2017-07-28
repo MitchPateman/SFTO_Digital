@@ -15,7 +15,7 @@ $(document).ready(function () {
         var str = $(this).serialize();
         $.ajax({
           type: "POST",
-          url: "contact_form/contact_process.php",
+          url: "http://formspree.io/mitchell.pateman@gmail.com",
           data: str,
           success: function(msg) {
             // Message Sent - Show the 'Thank You' message and hide the form

@@ -1,4 +1,4 @@
 <?php
 // add your email address here
-define("CONTACT_FORM", 'mitchell.pateman@gmail.com');
+define("CONTACT_FORM", 'http://formspree.io/mitchell.pateman@gmail.com');
 ?>

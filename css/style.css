@@ -103,7 +103,7 @@ a {
 .close, #close {
   font-size: 35px;
   background: transparent;
-  color: #000;
+  color: #fff;
   opacity: 0.6;
   cursor: pointer;
   border: 0;-webkit-transition: all 0.3s ease-in-out;
@@ -115,7 +115,7 @@ a {
 .close:hover, #close:hover  { opacity: 0.8; color: #000; }
 
 /**** TYPOGRAPHY ****/
-h1, h2, h3, h4, h5, h6 { font-family: 'Lato', sans-serif; color:#fff; }
+h1, h2, h3, h4, h5, h6 { font-family: 'Lato-Hairline'; color:#fff;}
 h2 { font-size: 28px; }
 h3 { font-size: 24px; }
 h4 { font-size: 20px; }
@@ -124,21 +124,24 @@ h6 { font-size: 16px; }
 p { margin: 20px 0; }
 .lead { font-size: 28px; color: #fff; padding: 0 0 20px;}
 
+.link{font-family: "Lato-Hairline"; font-weight: 100;}
+
 .content h1, h1  {
   margin: 0 auto;
   text-align: center;
   color: #fff;
-    letter-spacing: -1px;
-  font-size: 95px;
+  letter-spacing: -1px;
+  font-size: 82px;
   line-height: 1em;
-  font-weight: 700;
+  font-weight: 100;
   padding: 10px 0 0;
-  text-transform: none;
+  text-transform: uppercase;
 }
 .content h1  {
   margin: 30px auto 0;
   text-transform: uppercase;
 }
+
 
 .soon{
   margin: 0px auto;
@@ -183,8 +186,9 @@ p { margin: 20px 0; }
 
 /**** LOGO ****/
 .logo {
-  margin: 0 auto 10px;
-  margin-bottom: 60px;
+  /*margin: 0 auto 10px;*/
+  margin-top: -160px;
+  margin-bottom: 85px;
   margin-right: 5px;
   height:50%;
   width:50%;
@@ -192,15 +196,16 @@ p { margin: 20px 0; }
 
 /**** LAUNCHING/SUBSCRIBE LINKS ****/
 .link-effect a {
+  font-family: "Lato-Hairline"
   display: inline-block;
   position:relative;
-  font-size: 18px;
-  text-transform: lowercase;
+  font-size: 14px;
+  text-transform: uppercase;
   letter-spacing: 4px;
   padding: 5px;
   margin: 20px 5px;
   color: #fff;
-  font-weight: 700;
+  font-weight: 100;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
   transition: color 0.3s;
@@ -242,6 +247,10 @@ p { margin: 20px 0; }
   transform: translateY(0px);
 }
 .size { font-size: 13px; }
+
+.fa-dot-circle-o:before {
+  font-size: 10px;
+}
 
 /*-----------------------------------------------------------------------------------*/
 /*	03: SUBSCRIBE PAGE
@@ -318,6 +327,10 @@ input { outline: none; }
 /*-----------------------------------------------------------------------------------*/
 /*	04: COUNTDOWN PAGE
 /*-----------------------------------------------------------------------------------*/
+#pageTitle{
+  margin-top: -100px;
+}
+
 
 /**** COUNTDOWN ****/
 .counter {
@@ -342,7 +355,7 @@ input { outline: none; }
 }
 
 /**** SOCIAL ICONS ****/
-#social-icons ul { padding: 0; list-style-type: none; margin: 150px auto 0; }
+#social-icons ul { padding: 0; list-style-type: none; margin: 100px auto 0; }
 #social-icons ul li { display: inline; }
 #social-icons ul li a {
   color: #fff;
@@ -386,7 +399,7 @@ input { outline: none; }
 #preloader {
   position: fixed;
   top: 0; left: 0; right: 0; bottom: 0;
-  background-color: #111;
+  background-color: #000;
   z-index: 9999;
 }
 .status1 {
@@ -397,12 +410,12 @@ input { outline: none; }
   color: #fff;
 }
 .status2 {
-  width: 300px; height:162px;
+  width: 417px; height:417px;
   position:static;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 280px;
-  background: url(../img/boatmd.png) no-repeat;
+  margin-top: 100px;
+  background: url(../img/sfto5.png) no-repeat;
   background-size: auto;
 }
 

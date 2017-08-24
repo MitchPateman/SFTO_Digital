@@ -187,11 +187,15 @@ p { margin: 20px 0; }
 /**** LOGO ****/
 .logo {
   /*margin: 0 auto 10px;*/
-  margin-top: -160px;
+  margin-top: -200px;
   margin-bottom: 85px;
   margin-right: 5px;
   height:50%;
   width:50%;
+}
+
+.rotate {
+  margin-bottom: 200px;
 }
 
 /**** LAUNCHING/SUBSCRIBE LINKS ****/

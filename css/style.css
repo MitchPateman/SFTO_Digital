@@ -13,6 +13,8 @@ Purchase:  http://themeforest.net/user/josweb
 07: MEDIA QUERIES
 */
 
+@import url('https://fonts.googleapis.com/css?family=Lato:100');
+
 /*-----------------------------------------------------------------------------------*/
 /*	01: GENERAL STYLING
 /*-----------------------------------------------------------------------------------*/
@@ -20,22 +22,24 @@ Purchase:  http://themeforest.net/user/josweb
   margin: 0px auto;
   font-size: 15.6px;
   margin-bottom: -50px;
+  font-weight: 100;
 }
 
 .lifix{
   float:left;
   margin:0;
+  font-weight: 100;
 }
 
 html, body { height: 100%; padding: 0; margin: 0; }
 
 body {
-   font:16px/24px 'Lato', sans-serif;
+   font:16px/24px 'Lato';
+   font-weight: 100;
   color:#fff;
   text-align:center;
   background:#222;
-  font-weight: 400;
-  text-rendering: optimizeLegibility;
+  /*text-rendering: optimizeLegibility;*/
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   height: 100%;
   width: 100%;
@@ -115,16 +119,23 @@ a {
 .close:hover, #close:hover  { opacity: 0.8; color: #000; }
 
 /**** TYPOGRAPHY ****/
-h1, h2, h3, h4, h5, h6 { font-family: 'Lato-Hairline'; color:#fff;}
+h1, h2, h3, h4, h5, h6, p, body {
+  font-family: 'Lato';
+  color:#fff;
+  font-weight: 100;
+}
 h2 { font-size: 28px; }
 h3 { font-size: 24px; }
 h4 { font-size: 20px; }
 h5 { font-size: 18px; }
 h6 { font-size: 16px; }
 p { margin: 20px 0; }
-.lead { font-size: 28px; color: #fff; padding: 0 0 20px;}
+.lead { font-size: 28px; font-weight: 100; color: #fff; padding: 0 0 20px;}
 
-.link{font-family: "Lato-Hairline"; font-weight: 100;}
+.link{
+  font-family: "Lato";
+  font-weight: 100;
+}
 
 .content h1, h1  {
   margin: 0 auto;
@@ -200,7 +211,8 @@ p { margin: 20px 0; }
 
 /**** LAUNCHING/SUBSCRIBE LINKS ****/
 .link-effect a {
-  font-family: "Lato-Hairline"
+  font-family: 'Lato';
+  font-weight: 100;
   display: inline-block;
   position:relative;
   font-size: 14px;
@@ -209,7 +221,6 @@ p { margin: 20px 0; }
   padding: 5px;
   margin: 20px 5px;
   color: #fff;
-  font-weight: 100;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
   transition: color 0.3s;
@@ -279,7 +290,7 @@ p { margin: 20px 0; }
   border-radius: 6px;
   margin-bottom: 15px;
   padding: 8px 10px;
-  font-weight: 400;
+  font-weight: 100;
   font-size: 16px;
 }
 ::-webkit-input-placeholder { color: #f0f0f0; opacity: 1.0; }

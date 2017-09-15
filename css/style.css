@@ -419,6 +419,34 @@ input { outline: none; }
 .copyright { text-align: center; font-size: 12px; padding: 90px 0 40px;	 }
 .overlay-content .lead { text-align: center; }
 
+.transparentBg {
+  opacity: 0.5;
+  background-color: black;
+  height: 350px;
+}
+
+.solidBg {
+  position: absolute;
+  z-index: 1;
+  width: inherit;
+}
+
+.imageStyle {
+  float: left;
+  clear: both;
+}
+
+.blurbStyle {
+  float: right;
+  display: block;
+  margin-top: -50px;
+  margin-left: 100px;
+}
+
+.ulWidth {
+  width: 500px;
+}
+
 /*-----------------------------------------------------------------------------------*/
 /*	06: PRELOADER
 /*-----------------------------------------------------------------------------------*/

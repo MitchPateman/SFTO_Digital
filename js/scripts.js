@@ -56,13 +56,13 @@ $(document).ready(function () {
         }, 650);
         });
   $(close_overlay).click(function() {
-    $(about).removeClass(open).addClass(close).fadeOut('slow');
+    $(about).removeClass(open).addClass(close).fadeOut('fast');
     setTimeout(function() {
-        $(overlay).fadeOut('slow');
+        $(overlay).fadeOut('fast');
         setTimeout(function() {
           $(content).removeClass(out).addClass(enter).fadeIn('fast');
-        }, 700);
-        }, 500);
+        }, 100);
+      }, 100);
       });
     });
 

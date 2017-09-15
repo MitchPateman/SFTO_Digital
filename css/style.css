@@ -447,6 +447,25 @@ input { outline: none; }
   width: 500px;
 }
 
+@media (max-width: 414px) {
+   .ulWidth{
+     width: auto;
+   }
+
+   .blurbStyle {
+     margin-top: 100px;
+     margin: 0 auto;
+     padding-bottom: 40px;
+     padding-top: 20px;
+   }
+
+   .missionDiv {
+     padding-top: 200px;
+   }
+ }
+
+
+
 /*-----------------------------------------------------------------------------------*/
 /*	06: PRELOADER
 /*-----------------------------------------------------------------------------------*/

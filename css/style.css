@@ -499,6 +499,13 @@ input { outline: none; }
 /*-----------------------------------------------------------------------------------*/
 /*	07: MEDIA QUERIES
 /*-----------------------------------------------------------------------------------*/
+@media (max-width: 600px) {
+   #imgHide {
+      display: none;
+   }
+}
+
+
 
 @media all and (max-width: 568px) {
 .content h1, h1 { font-size: 45px!important; }

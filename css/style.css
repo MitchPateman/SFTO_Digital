@@ -424,7 +424,7 @@ input { outline: none; }
 .overlay-content .lead { text-align: center; }
 
 .transparentBg {
-  opacity: 0.5;
+  opacity: 0.93;
   background-color: black;
   height: 350px;
 }
@@ -438,6 +438,7 @@ input { outline: none; }
 .imageStyle {
   float: left;
   clear: both;
+  border-radius: 50%;
 }
 
 .blurbStyle {
@@ -453,7 +454,7 @@ input { outline: none; }
 
 @media (max-width: 414px) {
    .ulWidth{
-     width: auto;
+     width: 320px;
    }
 
    .blurbStyle {
@@ -463,8 +464,8 @@ input { outline: none; }
      padding-top: 20px;
    }
 
-   .missionDiv {
-     padding-top: 200px;
+   .transparentBg {
+     height: 550px;
    }
  }
 

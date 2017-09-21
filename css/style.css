@@ -44,6 +44,7 @@ Purchase:  http://themeforest.net/user/josweb
   margin-right: auto;
   margin-top: 10px;
   margin-bottom: 10px;
+  border-radius: 30%;
 }
 
 html, body { height: 100%; padding: 0; margin: 0; }
